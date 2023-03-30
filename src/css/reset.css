@@ -1,6 +1,5 @@
 html {
     box-sizing: border-box;
-    font-size: 16px;
 }
 
 *,
@@ -22,6 +21,11 @@ ul {
     margin: 0;
     padding: 0;
     font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 ol,
