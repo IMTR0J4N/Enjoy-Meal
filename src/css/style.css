@@ -41,7 +41,7 @@
     position: absolute;
     top: 0%;
     left: 100%;
-    transform: translateX(0%) rotateX('180');
+    transform: translateX(0%);
     content: '"';
     color: var(--orange);
 }
