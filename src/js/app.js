@@ -32,11 +32,11 @@ const foods = [
 
 for(const food of foods) {
     foodsC.innerHTML += `<article class="food"><img src=${food.imgSrc} alt="food" class="food-img">
-        <div class="food-infos">
-          <h3 class="food-title">${food.title}</h3>
-          <p class="food-description">${food.text}</p>
-        </div>
-      </article>`;
+                        <div class="food-infos">
+                        <h3 class="food-title">${food.title}</h3>
+                        <p class="food-description">${food.text}</p>
+                        </div>
+                        </article>`;
 }
 
   
