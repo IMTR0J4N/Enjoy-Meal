@@ -28,11 +28,6 @@ const foods = [
     title: "un titre super",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus architectominima assumenda perferendisqui consequatur dicta, a cumque cupiditate, rerum voluptates animi illo corrupti modi esse at. Ipsum,ducimus delectus.",
   },
-  {
-    imgSrc: "./assets/img-06.jpg",
-    title: "un titre super",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus architectominima assumenda perferendisqui consequatur dicta, a cumque cupiditate, rerum voluptates animi illo corrupti modi esse at. Ipsum,ducimus delectus.",
-  },
 ];
 
 for(const food of foods) {
