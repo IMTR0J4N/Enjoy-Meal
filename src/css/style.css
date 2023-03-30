@@ -152,3 +152,78 @@ table tbody tr td {
     text-align: start;
     padding-left: 5px;
 }
+
+.foods {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+  
+.foods-title {
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    margin-top: 5px;
+    font-weight: 400;
+}
+  
+.food {
+    display: flex;
+    height: 100px;
+    width: 90%;
+    border-radius: 10px;
+}
+  
+.food:nth-child(2n) {
+    background-color: var(--gray);
+}
+  
+.food-img {
+    width: 100px;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+.food-infos {
+    padding-left: 10px;
+}
+  
+.food-title {
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    margin-top: 0.1rem;
+}
+  
+.food-description {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+    height: calc(100% - 1.5rem);
+}
+
+.parallax--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.parallax--inner {
+    background-image: url("../../assets/img-12.jpg");
+    margin-top: 20px;
+    width: 90%;
+    min-height: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
