@@ -108,3 +108,47 @@
     color: var(--white);
 }
 
+.subscriptions {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.subscription-title {
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    margin: 10px 0px 10px 0px;
+    font-weight: 400;
+}
+  
+table {
+    font-family: "Lato", sans-serif;
+    width: 90%;
+    padding: 0px;
+}
+  
+table thead, tfoot {
+    background-color: var(--gray-blue);
+    color: var(--white);
+}
+  
+table thead tr th {
+    padding: 10px 20px;
+    border: var(--gray) solid 1px;
+    font-weight: 400;
+    text-align: center;
+}
+  
+table, td {
+    border: var(--gray) solid 1px;
+}
+  
+td {
+    padding: 10px 5px;
+}
+  
+table tbody tr td {
+    text-align: start;
+    padding-left: 5px;
+}
