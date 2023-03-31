@@ -260,3 +260,90 @@ table tbody tr td {
     text-align: center;
     margin-bottom: 5px;
 }
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    margin-top: 10px;
+    font-family: "Lato", sans-serif;
+    background-color: var(--gray-blue);
+    color: var(--white);
+}
+
+.footer-title {
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.footer-paragraph {
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+.footer-href {
+    color: var(--orange);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    border: none;
+}
+
+.contact-title {
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contact-radios {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.contact-inputs {
+    margin: 10px 0px;
+    border: none;
+}
+
+.contact-input {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contact-message {
+    padding: 10px;
+    min-width: 200px;
+    max-width: 90vw;
+    min-height: 50px;
+    border-radius: 10px;
+}
+
+.submit--btn {
+    padding: 2%;
+    background-color: var(--dark_blue);
+    color: var(--white);
+    border-radius: 5px;
+    padding: 2%;
+    transition: all ease 0.2s;
+}
+
+.submit--btn:hover {
+    background-color: var(--orange);
+    cursor: pointer;
+}

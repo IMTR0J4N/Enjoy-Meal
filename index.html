@@ -96,8 +96,66 @@
         </article>
       </section>
   </main>
-  <footer>
-
+  <footer class="footer">
+    <h2 class="footer-title">formulaire de contact</h2>
+    <p class="footer-paragraph">Pour plus de details vous pouvez consulter notre site <a href="https://www.edenschool.fr/" class="footer-href">ici</a></p>
+    <form class="form">
+      <article class="contact">
+        <h3 class="contact-title">informations de contact</h3>
+        <fieldset class="contact-radios">
+          <legend>Quel est votre age</legend>
+          <div>
+            <input type="radio" name="age" id="radio--12-14" value="12-14" checked>
+            <label for="radio--12-14">12-14</label>
+          </div>
+          <div>
+            <input type="radio" name="age" id="radio--15-17" value="15-17">
+            <label for="radio--15-17">15-17</label>
+          </div>
+          <div>
+            <input type="radio" name="age" id="radio--18-19" value="18-19">
+            <label for="radio--18-19">18-19</label>
+          </div>
+        </fieldset>
+        <div class="contact-inputs">
+          <label for="name">nom:</label>
+          <input type="text" name="name" id="name" class="contact-input" placeholder="Saisissez votre nom" required>
+        </div>
+        <div class="contact-inputs">
+          <label for="name">mail:</label>
+          <input type="email" name="mail" id="mail" class="contact-input" placeholder="Saisissez votre mail" required>
+        </div>
+      </article>
+      <fieldset class="contact">
+        <h3 class="contact-title">votre jeu préféré</h3>
+          <div class="contact-inputs">
+            <label for="name">Choisissez une console:</label>
+            <select class="contact-input contact-select">
+              <option disabled selected>--Choisissez une console--</option>
+              <option value="ps4">ps4</option>
+              <option value="xbox">xbox</option>
+            </select>
+          </div>
+          <div class="contact-inputs">
+            <label for="name">Choisissez un jeu:</label>
+            <select class="contact-input contact-select">
+              <option disabled selected>--Choisissez un jeu--</option>
+              <option value="roblox">roblox</option>
+              <option value="fortnite">fortnite</option>
+            </select>
+          </div>
+      </fieldset>
+      <fieldset class="contact">
+        <h3 class="contact-title">votre message</h3>
+        <div class="contact-inputs">
+          <textarea class="contact-message" placeholder="Saisissez votre message" required></textarea>
+        </div>
+        <div class="contact-inputs">
+          <input type="password" id="password" class="contact-input" name="cryptage" placeholder="Saisissez votre code" required>
+        </div>
+      </fieldset>
+      <button type="submit" class="submit--btn">Envoyer votre message</button>
+    </form>
   </footer>
   <script src="./src/js/app.js" type="module"></script>
 </body>

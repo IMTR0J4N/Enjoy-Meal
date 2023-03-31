@@ -38,5 +38,3 @@ for(const food of foods) {
                         </div>
                         </article>`;
 }
-
-  
