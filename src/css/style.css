@@ -347,3 +347,51 @@ table tbody tr td {
     background-color: var(--orange);
     cursor: pointer;
 }
+
+@media screen and (min-width: 680px) {
+    .nav-items {
+        justify-content: space-around;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .nav-title {
+        font-size: 24px;
+    }
+
+    table {
+        width: 600px;
+    }
+
+    .blog-title {
+        position: absolute;
+        top: 1240px;
+    }
+
+    .blog {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        column-gap: 5vw;
+        row-gap: 1.5vw;
+    }
+
+    .blog-card {
+        margin-top: 100px;
+        width: 500px;
+        height: 40vh;
+    }
+
+    .parallax {
+        height: 300px;
+    }
+
+    .contact {
+        width: 40vw;
+    }
+
+    .contact-radios {
+        gap: 10%;
+    }
+}
