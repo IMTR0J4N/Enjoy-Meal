@@ -103,9 +103,13 @@
     padding: 2%;
     text-transform: uppercase;
     border-radius: 5px;
-    border-color: var(--white);
+    border-color: var(--dark_blue);
     background-color: var(--dark_blue);
     color: var(--white);
+}
+
+.nav-btn:hover {
+    background-color: var(--orange);
 }
 
 .subscriptions {
@@ -395,3 +399,16 @@ table tbody tr td {
         gap: 10%;
     }
 }
+
+.easter-egg--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: var(--gray-blue);
+    color: white;
+    font-family: "Lato", sans-serif;
+  }

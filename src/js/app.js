@@ -1,6 +1,9 @@
 import '../css/style.css';
 import '../css/reset.css';
 
+const easterEggBtn = document.getElementById('easter-egg--btn');
+const body = document.body
+
 const foodsC = document.getElementById("foods");
 const foods = [
   {
@@ -37,4 +40,9 @@ for(const food of foods) {
                         <p class="food-description">${food.text}</p>
                         </div>
                         </article>`;
+}
+
+easterEggBtn.onclick = () => {
+  body.classList.add('easter-egg--container');
+  body.innerHTML = `<h1>c'est une blague ... rechargez la page !`
 }
