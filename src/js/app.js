@@ -1,5 +1,8 @@
-import '../css/style.css';
-import '../css/reset.css';
+import "../css/style.css";
+import "../css/reset.css";
+
+const easterEggBtn = document.getElementById("easter-egg--btn");
+const body = document.body;
 
 const foodsC = document.getElementById("foods");
 const foods = [
@@ -30,8 +33,8 @@ const foods = [
   },
 ];
 
-for(const food of foods) {
-    foodsC.innerHTML += `<article class="food"><img src=${food.imgSrc} alt="food" class="food-img">
+for (const food of foods) {
+  foodsC.innerHTML += `<article class="food"><img src=${food.imgSrc} alt="food" class="food-img">
                         <div class="food-infos">
                         <h3 class="food-title">${food.title}</h3>
                         <p class="food-description">${food.text}</p>
@@ -39,4 +42,7 @@ for(const food of foods) {
                         </article>`;
 }
 
-  
+easterEggBtn.onclick = () => {
+  body.classList.add("easter-egg--container");
+  body.innerHTML = `<h1>c'est une blague ... rechargez la page !`;
+};
